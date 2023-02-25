@@ -1,0 +1,100 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+  
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/simple-elegant-chuva-centro-escolar-pink-powerpoint-background_f350247ea1__960_540.jpg");
+    background-color: #111;
+    background-size: 100%;
+    background-position: top top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    background-color: #445d43;
+    border: 4px solid #7a4221;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    color: black;
+    text-shadow: 0px 0px 2px white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 3px black;
+    color: white;
+  }
+  
+  label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+  }
+  input {
+    text-align: left;
+    border: 2px solid black;
+  }
+  
+  button {
+    width: 98%;
+    font-size: 17px;
+    color: white;
+  
+    background-image: linear-gradient(to right, #936f9b, #6e4477);
+    border: 0px;
+    border-radius: 3px;
+  }
+  button:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(109, 62, 117, 1) 15%,
+      rgba(78, 45, 118, 1) 35%
+    );
+    cursor: pointer;
+  }
+  #envio {
+    background-image: linear-gradient(to right, green, green);
+    width: 100px;
+    height: 25px;
+  }
+  #envio:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(13, 219, 13, 1) 68%,
+      rgba(39, 175, 142, 1) 86%
+    );
+  }
+  
