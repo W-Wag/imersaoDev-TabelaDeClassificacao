@@ -79,6 +79,7 @@
     background-image: linear-gradient(to right, #936f9b, #6e4477);
     border: 0px;
     border-radius: 3px;
+    margin: 3px;
   }
   button:hover {
     background: linear-gradient(

@@ -39,10 +39,13 @@ var listaJogadores = [
             <td>${jogador.vitorias}</td>
             <td>${jogador.empates}</td>
             <td>${jogador.derrotas}</td>
-            <td>${jogador.pontos}</td>
-            <td><button onclick="adicionarVitoria('${jogador.nome}')">Vitória</button></td>
+            <td colspan='2' rowspan='2'>${jogador.pontos}</td>
+          </tr>
+          <tr>
+          <th id="actions" colspan="1">Ações</th>
+          <td><button onclick="adicionarVitoria('${jogador.nome}')">Vitória</button></td>
             <td><button onclick="adicionarEmpate(${jogador.empate})">Empate</button></td>
-            <td><button onclick="adicionarDerrota('${jogador.nome}')">Derrota</button></td>
+            <td><button onclick="adicionarDerrota('${jogador.nome}')">Derrota</button></td> 
           </tr>
     `;
     });
