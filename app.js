@@ -42,7 +42,7 @@ var listaJogadores = [
             <td colspan='2' rowspan='2'>${jogador.pontos}</td>
           </tr>
           <tr>
-          <th colspan="1">Ações</th>
+          <th colspan="1">Ações ↑</th>
           <td><button onclick="adicionarVitoria('${jogador.nome}')">Vitória</button></td>
             <td><button onclick="adicionarEmpate(${jogador.empate})">Empate</button></td>
             <td><button onclick="adicionarDerrota('${jogador.nome}')">Derrota</button></td> 
