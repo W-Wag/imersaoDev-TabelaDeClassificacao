@@ -4,6 +4,13 @@
     text-align: center;
   }
   
+  @media screen and (max-width:600px) {
+    #tabela{
+      width:300px;
+    }
+    
+  }
+  
   body {
     font-family: "Roboto Mono", monospace;
     height: 96vh;
@@ -12,7 +19,7 @@
     background-image: url("https://image.slidesdocs.com/responsive-images/background/simple-elegant-chuva-centro-escolar-pink-powerpoint-background_f350247ea1__960_540.jpg");
     background-color: #111;
     background-size: cover;
-    background-position: top top;
+    background-position: center top;
     background-repeat: no-repeat;
 
   }
@@ -20,7 +27,7 @@
  
   #tabela{
     
-    width: 600px;
+    width: 100vw;
     margin: auto;
   }
   table {

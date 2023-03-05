@@ -82,3 +82,12 @@ var listaJogadores = [
     exibirNaTela();
   }
   
+  function mudarTamanho(){
+    const tabela = document.getElementById('tabela');
+    if(document.body.clientWidth <= 700){
+    tabela.style.width = '350px';
+    }
+    else if(document.body.clientWidth > 700) {
+      tabela.style.width = '100vw';
+    }
+  }
