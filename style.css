@@ -14,17 +14,12 @@
     background-position: top top;
     background-repeat: no-repeat;
 
-    position: relative;
   }
   
  
   #tabela{
-    position: absolute;
-    width: 80%;
-    top: 9%;
-    left: 50%;
-    transform: translate(-50%);
-    
+    width: 65%;
+    margin: auto;
   }
   table {
     
