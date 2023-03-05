@@ -41,7 +41,10 @@
     top: 10px;
     right: 10px;
   }
-  
+  #tabela{
+    width: 90%;
+    margin: auto;
+  }
   table {
     
     background-color: #445d43;
@@ -60,6 +63,7 @@
     border: solid 3px black;
     color: white;
   }
+  
   
   label {
     font-size: 1.2em;
