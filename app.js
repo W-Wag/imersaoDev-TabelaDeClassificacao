@@ -85,7 +85,7 @@ var listaJogadores = [
   function mudarTamanho(){
     const tabela = document.getElementById('tabela');
     if(document.body.clientWidth <= 700){
-    tabela.style.width = '350px';
+    tabela.style.width = '300px';
     }
     else if(document.body.clientWidth > 700) {
       tabela.style.width = '100vw';
