@@ -1,10 +1,11 @@
 * {
+    padding: 0px;
+    margin: 0px;
     text-align: center;
   }
   
   body {
     font-family: "Roboto Mono", monospace;
-    min-height: 400px;
     height: 96vh;
     
   
@@ -19,7 +20,7 @@
  
   #tabela{
     width: 65%;
-    margin: 10px 50px;
+    margin: auto;
   }
   table {
     
@@ -31,6 +32,7 @@
   h1 {
     color: black;
     text-shadow: 0px 0px 2px white;
+    margin: 10px;
   }
   
   th,
